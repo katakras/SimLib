@@ -80,17 +80,17 @@ namespace graphs
     }
 
     template<typename T>
-    std::set< std::pair<Node<T>*, Node<T>*> > Graph::get_edges()
+    std::set< std::pair<Node<T>*, Node<T>*> > Graph<T>::get_edges()
     {
-        std::set<std::pair<Node *, Node *> > set_of_edges;
-        for (std::set<Node *>::iterator it = _nodes.begin();
+        std::set<std::pair<Node<T>*, Node<T>*> > set_of_edges;
+        for (typename std::set<Node<T> *>::iterator it = _nodes.begin();
              it != _nodes.end();
              ++it) {
-            std::set<Node *> these_nodes = (*it)->get_nodes();
-            for (std::set<Node *>::iterator it2 = these_nodes.begin();
+            std::set<Node<T> *> these_nodes = (*it)->get_nodes();
+            for (typename std::set<Node<T> *>::iterator it2 = these_nodes.begin();
                  it2 != these_nodes.end();
                  ++it2) {
-                set_of_edges.insert(std::pair<Node *, Node *>(*it, *it2));
+                set_of_edges.insert(std::pair<Node<T>*, Node<T>*>(*it, *it2));
             }
         }
 
