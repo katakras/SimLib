@@ -1,0 +1,8 @@
+
+cmake-build-release/SimLib
+
+*.o
+
+*.out
+
+cmake-build-debug/SimLib

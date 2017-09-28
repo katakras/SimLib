@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/luishuescamolina/Desktop/C++/SimLib/Graphs/Graph.cpp
+Graph.h
+/Users/luishuescamolina/Desktop/C++/SimLib/Graphs/Graph.h
+
+/Users/luishuescamolina/Desktop/C++/SimLib/Graphs/Graph.h
+set
+-
+
+/Users/luishuescamolina/Desktop/C++/SimLib/Tests/GraphTests.cpp
+GraphTests.h
+/Users/luishuescamolina/Desktop/C++/SimLib/Tests/GraphTests.h
+
+/Users/luishuescamolina/Desktop/C++/SimLib/Tests/GraphTests.h
+
+/Users/luishuescamolina/Desktop/C++/SimLib/Tests/TestsGeneral.cpp
+TestsGeneral.h
+/Users/luishuescamolina/Desktop/C++/SimLib/Tests/TestsGeneral.h
+
+/Users/luishuescamolina/Desktop/C++/SimLib/Tests/TestsGeneral.h
+string
+-
+
+/Users/luishuescamolina/Desktop/C++/SimLib/main.cpp
+iostream
+-
+Tests/GraphTests.h
+/Users/luishuescamolina/Desktop/C++/SimLib/Tests/GraphTests.h
+Tests/TestsGeneral.h
+/Users/luishuescamolina/Desktop/C++/SimLib/Tests/TestsGeneral.h
+
